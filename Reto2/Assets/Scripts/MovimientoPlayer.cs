@@ -10,7 +10,7 @@ public class MovimientoPlayer : MonoBehaviour
     private enum MovementState {idle, running, jumping, falling};
     private MovementState state;
 
-    private BoxCollider2D coll;
+    private CapsuleCollider2D coll;
     [SerializeField] private LayerMask jumpableGround;
 
     private float DireX = 0f;
@@ -20,7 +20,7 @@ public class MovimientoPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        coll = GetComponent<BoxCollider2D>();
+        coll = GetComponent<CapsuleCollider2D>();
 
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
