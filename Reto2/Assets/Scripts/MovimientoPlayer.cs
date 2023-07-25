@@ -14,8 +14,8 @@ public class MovimientoPlayer : MonoBehaviour
     [SerializeField] private LayerMask jumpableGround;
 
     private float DireX = 0f;
-    [SerializeField] private float moveSpeed = 8f;
-    [SerializeField] private float jumpForce = 7f;
+    [SerializeField] private float moveSpeed;
+    [SerializeField] private float jumpForce;
     public AudioSource JumpSound;
     // Start is called before the first frame update
     void Start()
@@ -47,12 +47,12 @@ public class MovimientoPlayer : MonoBehaviour
     {
         //MovementState = state;
 
-        if (DireX < 0f)
+        if (DireX > 0f)
         {
             state = MovementState.running;
             sprite.flipX = false;
         }
-        else if (DireX > 0f)
+        else if (DireX < 0f)
         {
             state = MovementState.running;
             sprite.flipX = true;
