@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Trap
+  - Reverse L
+  - Reverse R
+  - Damage
   layers:
   - Default
   - TransparentFX
