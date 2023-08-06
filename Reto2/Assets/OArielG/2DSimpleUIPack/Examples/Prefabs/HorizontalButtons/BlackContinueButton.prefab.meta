@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Reto2/Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/HorizontalButtons/BlackContinueButton.prefab.meta
 guid: 63d7c69aa20338a47bb86bb24bbb8107
+========
+guid: 75dce24c045be5144aeb928dc14e9fe1
+>>>>>>>> parent of 8d2c84c (Nivel 1 completado):Reto2/Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/Canvas.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

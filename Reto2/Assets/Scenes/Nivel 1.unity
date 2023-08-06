@@ -124,7 +124,10 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &70792556
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,6 +212,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &99117364
 GameObject:
@@ -1236,12 +1242,16 @@ Tilemap:
     e32: 0
     e33: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &161121205 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3181530687395389942, guid: ec0fbbd53bca62044824ab0a82e6d150, type: 3}
   m_PrefabInstance: {fileID: 3181530687554347587}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &225649239
+=======
+--- !u!1 &161121202
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 =======
 --- !u!1 &161121202
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
@@ -1253,11 +1263,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 225649240}
   m_Layer: 9
   m_Name: PlatformsMV
   m_TagString: Untagged
 =======
+=======
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
   - component: {fileID: 161121205}
   - component: {fileID: 161121204}
   - component: {fileID: 161121203}
@@ -1268,14 +1281,23 @@ GameObject:
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &225649240
 Transform:
+=======
+--- !u!95 &161121203
+Animator:
+  serializedVersion: 4
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 =======
 --- !u!95 &161121203
 Animator:
@@ -1286,7 +1308,10 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
   m_GameObject: {fileID: 161121202}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
@@ -1588,6 +1613,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
   m_GameObject: {fileID: 225649239}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -1595,11 +1623,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
+=======
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
   m_Children:
   - {fileID: 469357275}
   m_Father: {fileID: 0}
@@ -1679,6 +1710,9 @@ Transform:
   m_Father: {fileID: 1316491154}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &321957450
 GameObject:
@@ -20229,9 +20263,203 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &469914407
 =======
 --- !u!1 &469357270
+=======
+--- !u!1 &469357270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469357275}
+  - component: {fileID: 469357274}
+  - component: {fileID: 469357271}
+  - component: {fileID: 469357277}
+  - component: {fileID: 469357276}
+  - component: {fileID: 469357278}
+  - component: {fileID: 469357279}
+  m_Layer: 9
+  m_Name: De 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &469357271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469357270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d0ba765ae6f894a87536563cfd5d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 647829029}
+  - {fileID: 469914407}
+  speed: 2
+--- !u!50 &469357274
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469357270}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!4 &469357275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469357270}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.17147446, y: -2.1102746, z: -0.07658099}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 70792557}
+  - {fileID: 1359094521}
+  m_Father: {fileID: 225649240}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &469357276
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469357270}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.011144638, y: 0.26975536}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.967495, y: 0.03758049}
+  m_EdgeRadius: 0
+--- !u!61 &469357277
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469357270}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.013376236, y: 0.017833948}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9630318, y: 0.66115427}
+  m_EdgeRadius: 0
+--- !u!114 &469357278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469357270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fa6dfe0e7f032478271ebd9c9d87a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!251 &469357279
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469357270}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 0
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!1 &469914407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469914408}
+  m_Layer: 0
+  m_Name: WayP 2
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469914408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469914407}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -47.2, y: 0.89, z: 0.04219207}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &519420028
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20773,6 +21001,9 @@ Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647829029}
@@ -20783,7 +21014,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 7
+=======
+  m_RootOrder: 6
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 =======
   m_RootOrder: 6
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
@@ -20873,7 +21108,10 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &748218379
 GameObject:
   m_ObjectHideFlags: 0
@@ -20932,6 +21170,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.15058517, y: 0.87950397}
   m_EdgeRadius: 0
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &925160640
 GameObject:
@@ -21086,7 +21327,10 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &1316491153
 GameObject:
   m_ObjectHideFlags: 0
@@ -21415,6 +21659,9 @@ Transform:
   m_Father: {fileID: 1316491154}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &1446888534
 GameObject:
@@ -21617,6 +21864,9 @@ Transform:
 <<<<<<< HEAD
 =======
   - {fileID: 7547366205008510433}
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -21768,7 +22018,10 @@ Transform:
   m_PrefabInstance: {fileID: 1690513121}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &1809800350
 GameObject:
   m_ObjectHideFlags: 0
@@ -21954,6 +22207,9 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &1874870439
 GameObject:
@@ -22086,6 +22342,7 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &3181530687554347587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22206,6 +22463,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 727138ce478407e47ae5af95500e4cc6, type: 3}
 =======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1001 &7113690392795803315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22263,6 +22522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a705117a795415418630fd2d6ecd5af, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &7964989714711145182
 PrefabInstance:
@@ -22330,6 +22590,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f10e3e6164964e479289e2a0d92e7a2, type: 3}
 =======
+=======
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
 --- !u!1 &7547366205008510432
 GameObject:
   m_ObjectHideFlags: 0
@@ -22462,4 +22724,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
+>>>>>>> parent of 8d2c84c (Nivel 1 completado)
+=======
 >>>>>>> parent of 8d2c84c (Nivel 1 completado)
