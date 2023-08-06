@@ -15,7 +15,7 @@ TagManager:
   - Background
   - Water
   - UI
-  - 
+  - Jump
   - 
   - 
   - Platforms
@@ -47,6 +47,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 220636869
+    locked: 0
+  - name: Background 2
+    uniqueID: 4143897703
     locked: 0
   - name: Platforms
     uniqueID: 579605997
