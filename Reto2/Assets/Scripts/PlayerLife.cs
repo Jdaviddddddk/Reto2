@@ -39,7 +39,7 @@ public class PlayerLife : MonoBehaviour
         {
             rb.bodyType = RigidbodyType2D.Static;
             anim.SetTrigger("death");
-            SceneManager.LoadScene("Inicio");
+            SceneManager.LoadScene("GameOver");
         }
     }
 
