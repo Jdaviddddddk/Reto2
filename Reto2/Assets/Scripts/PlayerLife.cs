@@ -7,7 +7,9 @@ public class PlayerLife : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
-    
+    private int remainingLives = 3; // Number of remaining lives
+    public GameObject heartContainer; // Reference to the heart container
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -18,18 +20,46 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trap"))
         {
-            Die();
+            LoseLife();
         }
     }
 
-    private void Die()
+    private void LoseLife()
     {
-        rb.bodyType = RigidbodyType2D.Static;
-        anim.SetTrigger("death");
+        remainingLives--;
+
+        if (remainingLives > 0)
+        {
+            heartContainer.transform.GetChild(remainingLives).gameObject.SetActive(false);
+
+            anim.SetTrigger("death1");
+            StartCoroutine(ResetPositionAfterAnimation());
+        }
+        else
+        {
+            rb.bodyType = RigidbodyType2D.Static;
+            anim.SetTrigger("death");
+            SceneManager.LoadScene("Inicio");
+        }
+    }
+
+    private IEnumerator ResetPositionAfterAnimation()
+    {
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length);
+
+        rb.velocity = Vector2.zero;
+        rb.position = new Vector2(-8.7f, -2.48f);
     }
 
     private void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (remainingLives > 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }
