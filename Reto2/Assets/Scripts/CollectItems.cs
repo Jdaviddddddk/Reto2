@@ -1,15 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class CollectItems : MonoBehaviour
 {
     public AudioSource Collected;
+    public Slider bananasSlider; // Reference to the Slider component
     private int bananas = 0;
-
- 
-    [SerializeField] private TextMeshProUGUI CherriesText;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -18,7 +14,9 @@ public class CollectItems : MonoBehaviour
             Collected.Play();
             Destroy(collision.gameObject);
             bananas++;
-            CherriesText.text = "" + bananas;
+
+            // Update the slider value based on the bananas collected
+            bananasSlider.value = bananas;
         }
     }
 }
